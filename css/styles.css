@@ -11,6 +11,7 @@ body {
   justify-content: center;
   align-items: center;
   height: 100vh;
+  
 }
 
 main {
@@ -31,7 +32,6 @@ main #title > h4{
 
 main #title {
   margin-bottom: 1.5rem;
-
 }
 
 main #search-form {
@@ -80,6 +80,28 @@ font-weight: bold;
 font-size: 3rem;
 }
 
+@media (max-width: 800px) {
+
+  body {
+    width: 100vw;
+    align-items: center;
+  }
+
+  main #title > h1{
+    font-size: 3rem;
+    width: 200px;
+    text-overflow:clip;
+  }
+
+  main #search-form form {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+  
+}
 
 
 
