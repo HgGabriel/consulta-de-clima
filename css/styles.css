@@ -20,9 +20,18 @@ main {
   border-radius:3%;
 }
 
-main > h1{
+main #title > h1{
   font-size: 3rem;
+  width: 424px;
+}
+
+main #title > h4{
+  opacity: 50%;
+}
+
+main #title {
   margin-bottom: 1.5rem;
+
 }
 
 main #search-form {
